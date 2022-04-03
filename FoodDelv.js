@@ -54,9 +54,8 @@ while (true) {
       tasks.delete(executive_id);
       console.log(`executive ${executive_id} released`);
       executives -= 1;
-    } else {
-      console.log(`executive ${executive_id} completed a task`);
-    }
+    } 
+    console.log(`executive ${executive_id} completed a task`);
     taskDetails();
   } else if (opp == 3) {
     // breaks form the while loop.
